@@ -55,7 +55,7 @@ h1 {
 }
 
 .apresentacao__conteudo {
-  width: 50%;
+  width:  50%;
   font-family:var(--fonte-primaria);
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@ h1 {
 
 }
 .htmlcsslogo {
- width:   70%;
+  width:   70%;
  height: 70%;
  padding:  25px;
 }
@@ -153,6 +153,22 @@ h1 {
  height: 70%;
  padding:  25px;
 }
+
+.links__jogos{
+    
+  display: flex;
+    color: var(--cor--secundaria);
+    gap: 5px;
+    width: 2%
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    
+    text-decoration: none;
+    
+
+  }
 
 
 @media (max-width: 1200px ){
